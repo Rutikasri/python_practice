@@ -1,0 +1,2 @@
+Brute force is a straightforward approach to solving a problem by trying all possible solutions until the correct one is found. It is simple to implement but often inefficient for large inputs.
+

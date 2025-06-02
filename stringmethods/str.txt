@@ -1,0 +1,46 @@
+#case conversions :
+upper()- converts all characters to uppercase
+lower() / casefold() - converts all characters to lowercase
+captalize() - captalizes the first letter of a string
+title() - captalizes first letter of each word
+swapcase() - converts uppercase to lowercase and vice versa
+
+#string checking methods :
+isalnum() - Returns True if all characters are alphanumeric (letters + numbers)
+isalpha() - Returns True if all characters are alphabetic
+isdigit() - Returns True if all characters are digits
+isdecimal()- Returns True if all characters are decimal numbers
+isnumeric() - Returns True if all characters are numeric (includes fractions, subscripts)
+isascii()- Returns True if all characters are ASCII
+isspace() - Returns True if the string contains only whitespace
+islower() - Returns True if all characters are lowercase
+isupper() - Returns True if all characters are uppercase
+istitle() - Returns True if the string follows title case
+isidentifier() - Returns True if the string is a valid Python identifier
+
+#searching and counting:
+count() - Returns the number of occurrences of a string
+find() - Returns the first index where string is found (-1 if not found)
+rfind() - Returns the last index where string is found
+index() - Like find(), but raises an error if string is not found
+rindex() - Like rfind(), but raises an error if string is not found
+
+#modifications :
+replace(old,new - Replaces all occurrences of a substring)
+
+#check string starts/ends :
+startswith() - Returns True if string starts with a given string
+endswith() - Returns True if string ends with a given string
+
+#string splitting and joining: 
+split() - Splits a string into a list
+rsplit() - Splits the string at the specified separator, and returns a list
+join() - converts the elements of an iterable into a string
+
+#trimming :
+strip() - Removes spaces from both sides
+lstrip() - Removes spaces from the left
+rstrip() -Removes spaces from the right
+
+#
+format() - Formats specified values in a string
